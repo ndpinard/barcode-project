@@ -1,0 +1,9 @@
+imutils - for image utility
+pyzbar - decode barcodes
+requests - api requests
+os - finding filepaths
+cv2 - image Processing
+sqlite3 - storing local data
+json - handling json data
+glob - listing files
+pandas - cleaning up sqlite3 views
