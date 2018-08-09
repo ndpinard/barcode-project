@@ -63,7 +63,7 @@ class Vscan:
                     a = input("What is the name of the object with barcode: {}: ".format(str(upc)))
                     database.insert(a,upc)
                     dopost = input("Would you like to send this to the api for future reference? y/n: ")
-                    if dopost is "y"
+                    if dopost is "y":
                         post = Post()
                         post.postitem(a,upc)
                     time.sleep(2) #prevents multiple entries of the same item
